@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MB';
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header_nav-container {
+    display: flex;
+    justify-content: space-between;
+    color: #323232;
+    align-items: center;
+}
+
+.header_nav-list {
+    display: flex;
+    gap: 25px;
+}
+
+.header_nav-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #626262;
+    font-family: 'mr';
+}
+
+.header_nav-link.active {
+    color: #323232;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 71, 184, 0.49);
+    border-radius: 6px;
+    padding: 9px 39px;
+}
+
+.header_nav {
+    padding: 20px 0;
+}
+
+body {
+    background: #EFF5F5;
+}
+
+.main_intro {
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_intro-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.main_intro-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_intro-title {
+    font-size: 50px;
+    line-height: 61px;
+    color: #323232;
+    max-width: 530px;
+    width: 100%;
+
+}
+
+.main_intrapo-app {
+    max-width: 635px;
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 59px 30px -40px rgba(0, 133, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section_course {
+    margin-top: 70px;
+
+}
+
+.main_course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_course-right {
+    max-width: 650px;
+    width: 100%;
+
+}
+
+.main_course-title {
+    font-size: 30px;
+    line-height: 37px;
+    color: #626262;
+    margin-bottom: 32px;
+
+}
+
+.main_course-item {
+    max-width: 306px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 30px -15px rgba(0, 133, 255, 0.1);
+    border-radius: 13px;
+    padding: 15px 0 15px 15px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.main_course-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main_course-text {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323232;
+    font-family: 'mb';
+}
+
+.line {
+    position: relative;
+    width: 43px;
+    height: 6px;
+    margin-left: 17px;
+    margin-right: 12px;
+}
+
+.line::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #626262;
+
+}
+
+.line::after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #626262;
+
+}
+
+.main_course-text span:last-of-type {
+    margin-left: 5px;
+
+}
+
+.main_credit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.main_credit-title {
+    font-size: 30px;
+    line-height: 37px;
+    color: #626262;
+    font-family: 'MB';
+    margin-bottom: 12px;
+}
+
+.main_credit-visa {
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "ml";
+    margin-bottom: 30px;
+
+}
+
+.main_credit-visa span {
+    font-family: 'mb';
+
+
+}
+.main__credit-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #626262;
+    font-family: 'mb';
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+.main_credit-btns{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+.main_credit-add{
+    width: 194px;
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 20px -15px rgba(0, 71, 184, 0.49);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+}
+.main_credi-mroe{
+    font-size: 16px;
+    line-height: 20px;
+    color: #626262;
+    font-family: 'mb';
+    
+}
